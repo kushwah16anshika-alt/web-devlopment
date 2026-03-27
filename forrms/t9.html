@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 9 - Pizza Order Form</title>
+</head>
+<body>
+
+<h2>Task 9: Pizza Order Form</h2>
+<form>
+    <fieldset>
+        <legend>Pizza Order Form</legend>
+
+        <label>Customer Name:</label>
+        <input type="text" name="customer"><br><br>
+
+        <label>Pizza Size:</label><br>
+        <input type="radio" name="size" value="small"> Small<br>
+        <input type="radio" name="size" value="medium"> Medium<br>
+        <input type="radio" name="size" value="large"> Large<br><br>
+
+        <label>Toppings:</label><br>
+        <input type="checkbox" name="topping" value="cheese"> Extra Cheese<br>
+        <input type="checkbox" name="topping" value="pepperoni"> Pepperoni<br>
+        <input type="checkbox" name="topping" value="mushrooms"> Mushrooms<br>
+        <input type="checkbox" name="topping" value="olives"> Olives<br><br>
+
+        <label>Crust Type:</label>
+        <select name="crust">
+            <option>Thin Crust</option>
+            <option>Thick Crust</option>
+            <option>Cheese Burst</option>
+        </select><br><br>
+
+        <label>Delivery Address:</label><br>
+        <textarea name="address" rows="3" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Place Order">
+        <input type="reset" value="Cancel">
+    </fieldset>
+</form>
+
+</body>
+</html>

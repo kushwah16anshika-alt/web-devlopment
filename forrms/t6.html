@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 6 - Dance Club Registration</title>
+</head>
+<body>
+
+<h2>Task 6: Dance Club Registration Form</h2>
+<form>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>IC No:</td>
+            <td><input type="text" name="icno"></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><textarea name="address" rows="3" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>Dance Type:</td>
+            <td>
+                <input type="checkbox" name="dance" value="Zapin"> Zapin
+                <input type="checkbox" name="dance" value="Joget"> Joget
+                <input type="checkbox" name="dance" value="Inang"> Inang
+                <input type="checkbox" name="dance" value="Lion"> Lion Dance
+            </td>
+        </tr>
+        <tr>
+            <td>Competition:</td>
+            <td>
+                <select name="competition">
+                    <option>State Level</option>
+                    <option>National Level</option>
+                    <option>International Level</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Nationality:</td>
+            <td><input type="text" name="nationality"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Register Me">
+                <input type="reset" value="Cancel">
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

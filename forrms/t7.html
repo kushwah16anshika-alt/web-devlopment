@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 7 - User Input Form</title>
+</head>
+<body>
+
+<h2>Task 7: User Input Form</h2>
+<form>
+
+    <!-- Personal Particular Box -->
+    <fieldset>
+        <legend>Personal Particular</legend>
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label>Age:</label>
+        <input type="text" name="age" placeholder="< 1 year old">
+    </fieldset>
+    <br>
+
+    <!-- Languages Box -->
+    <fieldset>
+        <legend>Languages</legend>
+        <input type="checkbox" name="lang" value="Java"> Java
+        <input type="checkbox" name="lang" value="C/C++"> C/C++
+        <input type="checkbox" name="lang" value="C#"> C#
+    </fieldset>
+    <br>
+
+    <!-- Instruction Box -->
+    <fieldset>
+        <legend>Instruction</legend>
+        <textarea name="instruction" rows="4" cols="40" placeholder="Enter your instruction here ..."></textarea>
+    </fieldset>
+    <br>
+
+    <!-- Buttons -->
+    <input type="submit" value="SEND">
+    <input type="reset" value="CLEAR">
+
+</form>
+
+</body>
+</html>

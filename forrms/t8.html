@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 8 - Farewell Party Survey Form</title>
+</head>
+<body>
+
+<h2>Task 8: Farewell Party Survey Form</h2>
+<form>
+    <fieldset>
+        <legend>Farewell Party Survey</legend>
+
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age"><br><br>
+
+        <label>Which option best describes you?</label>
+        <select name="role">
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label>Will you attend the party?</label><br>
+        <input type="radio" name="attend" value="yes"> Yes
+        <input type="radio" name="attend" value="no"> No<br><br>
+
+        <label>What did you like?</label><br>
+        <input type="checkbox" name="like" value="Training"> Training<br>
+        <input type="checkbox" name="like" value="Experts"> The Learning Sessions from Industry Experts<br>
+        <input type="checkbox" name="like" value="Community"> Community Meetups<br>
+        <input type="checkbox" name="like" value="BrownBag"> Brown Bag Sessions<br>
+        <input type="checkbox" name="like" value="Hybrid"> Switching to Hybrid Mode<br>
+        <input type="checkbox" name="like" value="Food"> Food, Office etc.<br><br>
+
+        <label>Comments:</label><br>
+        <textarea name="comments" rows="4" cols="40"></textarea><br><br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
+
+</body>
+</html>

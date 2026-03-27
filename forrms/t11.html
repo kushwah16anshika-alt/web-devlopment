@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 11 - Course Registration Form</title>
+</head>
+<body>
+
+<h2>Task 11: Course Registration Form</h2>
+<form>
+    <fieldset>
+        <legend>Course Registration Form</legend>
+
+        <label>First Name:</label>
+        <input type="text" name="fname"><br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lname"><br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <label>Phone Number:</label>
+        <input type="tel" name="phone"><br><br>
+
+        <label>Select Course:</label>
+        <select name="course">
+            <option>Web Development</option>
+            <option>Data Science</option>
+            <option>Artificial Intelligence</option>
+            <option>Cyber Security</option>
+            <option>Cloud Computing</option>
+        </select><br><br>
+
+        <label>Preferred Mode of Study:</label><br>
+        <input type="checkbox" name="mode" value="online"> Online<br>
+        <input type="checkbox" name="mode" value="offline"> Offline<br>
+        <input type="checkbox" name="mode" value="hybrid"> Hybrid<br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address" rows="3" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </fieldset>
+</form>
+
+</body>
+</html>
