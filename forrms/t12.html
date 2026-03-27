@@ -1,54 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Task 12 - Library Membership Form</title>
+    <meta charset="UTF-8">
+    <title>Doctor Appointment Form</title>
 </head>
 <body>
 
-<h2>Task 12: Library Membership Form</h2>
-<form>
-    <fieldset>
-        <legend>Library Membership Form</legend>
+<h2>Doctor Appointment Form</h2>
 
-        <label>First Name:</label>
-        <input type="text" name="fname"><br><br>
+<table>
+    <tr>
+        <td>
+            <img src="https://img.freepik.com/free-photo/doctor-standing-with-folder-stethoscope_1291-16.jpg" 
+                 alt="Doctor" width="500" height="500">
+        </td>
+        <td>
+            <form>
 
-        <label>Last Name:</label>
-        <input type="text" name="lname"><br><br>
+                <label>Appointment Date:</label><br>
+                <input type="date"><br><br>
 
-        <label>Date of Birth:</label>
-        <input type="date" name="dob"><br><br>
+                <label>Appointment Time:</label><br>
+                <input type="time"><br><br>
 
-        <label>Gender:</label>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female
-        <input type="radio" name="gender" value="other"> Other<br><br>
+                <label>Name:</label><br>
+                <input type="text" placeholder="First">
+                <input type="text" placeholder="Last"><br><br>
 
-        <label>Email:</label>
-        <input type="email" name="email"><br><br>
+                <label>Gender:</label><br>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female<br><br>
 
-        <label>Phone Number:</label>
-        <input type="tel" name="phone"><br><br>
+                <label>Phone:</label><br>
+                <input type="text"><br><br>
 
-        <label>Membership Type:</label><br>
-        <input type="radio" name="membership" value="student"> Student<br>
-        <input type="radio" name="membership" value="adult"> Adult<br>
-        <input type="radio" name="membership" value="senior"> Senior Citizen<br><br>
+                <label>Address:</label><br>
+                <input type="text" placeholder="City">
+                <input type="text" placeholder="State"><br><br>
 
-        <label>Preferred Genres:</label><br>
-        <input type="checkbox" name="genre" value="fiction"> Fiction<br>
-        <input type="checkbox" name="genre" value="nonfiction"> Non-Fiction<br>
-        <input type="checkbox" name="genre" value="science"> Science<br>
-        <input type="checkbox" name="genre" value="history"> History<br>
-        <input type="checkbox" name="genre" value="biography"> Biography<br><br>
+                <label>Your Query:</label><br>
+                <textarea rows="4" cols="30"></textarea><br><br>
 
-        <label>Address:</label><br>
-        <textarea name="address" rows="3" cols="40"></textarea><br><br>
+                <label>Appointment Type:</label><br>
+                <input type="checkbox"> Cervix checkup<br>
+                <input type="checkbox"> Heart checkup<br>
+                <input type="checkbox"> Eye check-up<br>
+                <input type="checkbox"> Hearing Test<br><br>
 
-        <input type="submit" value="Register">
-        <input type="reset" value="Clear">
-    </fieldset>
-</form>
+                <input type="submit" value="Send">
+
+            </form>
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>
