@@ -1,0 +1,44 @@
+body {
+  background-color: #f8f9fa;
+  color: #444;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #6c91c2;
+}
+
+h2 {
+  color: #7bbf9a;
+}
+
+h3 {
+  color: #a084ca;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+table, th, td {
+  border: 1px solid #dcdcdc;
+}
+
+th, td {
+  padding: 8px;
+}
+
+a {
+  color: #5a9bd4;
+  text-decoration: none;
+}
+
+img {
+  border: 1px solid #dcdcdc;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #eef1f4;
+}
