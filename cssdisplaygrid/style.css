@@ -1,0 +1,27 @@
+.outer {
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    justify-items: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: aquamarine;
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;   
+    align-items: center;      
+
+    text-align: center;
+    background-color: rgb(12, 187, 128);
+}
