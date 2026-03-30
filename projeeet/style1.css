@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #0120ad;
+  /* background: linear-gradient(120deg, #1537cb, #6aa6ff); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.card {
+  width: 340px;
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+
+.card.login {
+  width: 290px;
+  padding: 25px 20px;
+}
+
+.card h2 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 18px;
+  padding: 6px 0;
+}
+
+.input-box svg {
+  width: 18px;
+  height: 18px;
+  color: #888;
+  margin-right: 10px;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 8px 5px;
+  font-size: 14px;
+}
+
+.eye {
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin: 10px 0 20px;
+  color: #555;
+}
+
+.options a {
+  text-decoration: none;
+  color: #2245e0;
+}
+
+button {
+  width: 100%;
+  padding: 11px;
+  border: none;
+  background: blue;
+  color: white;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.bottom {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.bottom a {
+  color: #5f7cff;
+  text-decoration: none;
+}
+.heading
+{
+ text-decoration: underline blue;
+}
