@@ -1,0 +1,17 @@
+#div1{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    
+    /* overflow: hidden;
+    text-wrap-mode: nowrap;
+    color: bisque; */
+    margin: auto;
+    transition: transform 2s linear;
+}
+#div1:hover{
+ /* width: 250px; */
+ /* transition: width 5s linear 2s
+ color blue 2s; */
+transform: translate(20px);
+}

@@ -144,6 +144,7 @@ input, select {
     height: 45px;
     margin-bottom: 15px;
     padding-left: 40px;
+    
 }
 
 .footer-col h3 {
@@ -240,6 +241,17 @@ input, select {
 }
 
 .info .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.phone-link {
+    text-decoration: none; 
+     
+}
+.btn-box
+{
     display: flex;
     align-items: center;
     justify-content: center;
