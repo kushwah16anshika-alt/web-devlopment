@@ -1,0 +1,28 @@
+:root
+{
+  --main-color:rgb(62, 189, 72);
+  --sub-color:rgb(168, 95, 95);
+  --text-color:rgb(158, 42, 158);
+}
+#btn1
+{
+background-color: rgb(239, 28, 64);
+}
+#btn2
+{
+    color: #1891c5;
+}
+h1
+{
+    color:var(--main-color);
+}
+h2
+{
+    color: rgb(33, 33, 131);
+}
+th{
+    color: rgb(60, 133, 71);
+}
+td{
+    color: rgb(41, 88, 116);
+}
