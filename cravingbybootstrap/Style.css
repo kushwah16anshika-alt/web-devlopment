@@ -1,5 +1,41 @@
 .carousel-item img {
-    height: 600px;      
-    width: 100%;
-    object-fit: cover;  
+      height: 100vh;
+      object-fit: cover;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: rgba(0,0,0,0.5);
+      z-index: 1;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      color: white;
+      text-align: center;
+      width: 75%;
+    }
+    .carousel-img{
+  height: 100vh;
+  
+  object-fit: cover;
+}
+
+.card-img-custom{
+  height: 300px;
+  
+  object-fit: cover;
+}
+
+.bg-gradient-custom{
+  background: #cc441b;
+background: linear-gradient(180deg, rgba(204, 68, 27, 1) 0%, rgba(219, 133, 90, 1) 50%, rgba(242, 242, 242, 1) 100%);
 }
