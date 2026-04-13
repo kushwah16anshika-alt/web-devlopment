@@ -1,0 +1,220 @@
+ /* Brand Colors
+:root {
+    --brand-orange: #bc3e0e;
+    --brand-dark-orange: #a0340c;
+}
+
+.bg-brand {
+    background-color: var(--brand-orange) !important;
+}
+
+.text-brand {
+    color: var(--brand-orange) !important;
+}
+
+.text-brand-dark {
+    color: var(--brand-dark-orange) !important;
+}
+
+.btn-brand {
+    background-color: var(--brand-orange) !important;
+    color: white !important;
+    border: none;
+}
+
+.btn-brand:hover {
+    background-color: var(--brand-dark-orange) !important;
+}
+
+
+.signup-hero {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), 
+                url('images/table-food-bg.jpg') no-repeat center center; /* Make sure to add your image path
+    background-size: cover;
+    padding-top: 80px; 
+    padding-bottom: 50px;
+}
+
+
+.form-control:focus {
+    border-color: var(--brand-orange);
+    box-shadow: 0 0 0 0.25rem rgba(188, 62, 14, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: var(--brand-orange);
+    border-color: var(--brand-orange);
+}
+
+
+@media (max-width: 768px) {
+    .signup-hero {
+        background-position: left center;
+    }
+}  */
+  :root {
+  --brand-orange: #bc3e0e;
+  --brand-dark-orange: #a0340c;
+  --footer-bg: #343541;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+/* --- Header / Navbar Fix --- */
+.navbar.bg-danger {
+  background-color: var(--brand-orange) !important;
+}
+
+.text-danger {
+  color: var(--brand-orange) !important;
+}
+
+/* --- Signup Hero --- */
+.signup-hero {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 110px; /* Offset for fixed navbar */
+  padding-bottom: 60px;
+  overflow: hidden;
+}
+
+.z-n1 {
+  z-index: -1 !important;
+}
+
+/* --- Form & Card Styles --- */
+.text-brand-dark {
+  color: var(--brand-dark-orange) !important;
+}
+
+.btn-brand {
+  background-color: var(--brand-orange) !important;
+  color: white !important;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-brand:hover {
+  background-color: var(--brand-dark-orange) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.form-control:focus {
+  border-color: var(--brand-orange);
+  box-shadow: 0 0 0 0.25rem rgba(188, 62, 14, 0.25);
+}
+
+.form-check-input:checked {
+  background-color: var(--brand-orange);
+  border-color: var(--brand-orange);
+}
+
+/* --- Footer Section --- */
+.footer-main-content {
+  background-color: var(--footer-bg);
+  color: #ffffff;
+  padding: 60px 20px 30px 20px;
+}
+
+.footer-tagline {
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 50px;
+  letter-spacing: 0.5px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.logo-circle {
+  background-color: #ffffff;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 12px;
+}
+
+.logo-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer-column h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.footer-column ul li a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footer-divider {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 40px auto 25px auto;
+  max-width: 1200px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.footer-legal a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
