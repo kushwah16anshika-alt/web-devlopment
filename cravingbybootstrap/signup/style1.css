@@ -66,7 +66,7 @@ body {
   overflow-x: hidden;
 }
 
-/* --- Header / Navbar Fix --- */
+
 .navbar.bg-danger {
   background-color: var(--brand-orange) !important;
 }
@@ -75,11 +75,11 @@ body {
   color: var(--brand-orange) !important;
 }
 
-/* --- Signup Hero --- */
+
 .signup-hero {
   position: relative;
   min-height: 100vh;
-  padding-top: 110px; /* Offset for fixed navbar */
+  padding-top: 110px; 
   padding-bottom: 60px;
   overflow: hidden;
 }
@@ -88,7 +88,7 @@ body {
   z-index: -1 !important;
 }
 
-/* --- Form & Card Styles --- */
+
 .text-brand-dark {
   color: var(--brand-dark-orange) !important;
 }
@@ -116,7 +116,7 @@ body {
   border-color: var(--brand-orange);
 }
 
-/* --- Footer Section --- */
+
 .footer-main-content {
   background-color: var(--footer-bg);
   color: #ffffff;
