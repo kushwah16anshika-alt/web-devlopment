@@ -1,4 +1,19 @@
+:root {
+  --primary-orange: #e95827;
+  --primary-orange-dark: #be5819;
+  --brand-orange: #bc3e0e;
 
+  --light-bg: #fffaf5;
+  --white: #ffffff;
+  --dark: #000;
+
+  --text-wheat: wheat;
+
+  --footer-bg: #343541;
+
+  --forgot-color: #dc511a;
+  --create-color: #d66a17;
+}
 body {
   margin: 0;
   padding: 0;
@@ -313,4 +328,39 @@ body {
   }
 
   .content h1 { font-size: 2.2rem; }
+}
+.forgot-link {
+  color: #dc511a;   
+}
+
+.forgot-link:hover {
+  color: #e56b00;   
+}
+.create-link {
+  color: #d66a17;
+}
+
+.create-link:hover {
+  color: #d67119;
+}
+ .btn-hero-primary {
+  background-color: #ff7a00; 
+  color: wheat;
+  border: none;
+}
+
+.btn-hero-primary:hover {
+  background-color: #e56b00;  
+  color: wheat;
+}
+
+.signup-hero {
+  padding-top: 100px; 
+}
+.terms-link {
+  color: var(--primary-orange);
+}
+
+.terms-link:hover {
+  color: var(--primary-orange-dark);
 }
