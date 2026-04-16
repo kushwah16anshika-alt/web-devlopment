@@ -364,3 +364,49 @@ body {
 .terms-link:hover {
   color: var(--primary-orange-dark);
 }
+/* //ordernow */
+
+.search-box {
+  background: #f3ede7;
+  border-radius: 20px;
+}
+
+.search-box input {
+  background: transparent;
+  box-shadow: none;
+}
+
+
+.restaurant-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.rating-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff7a00;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.tag {
+  background: #eee;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-right: 5px;
+}
