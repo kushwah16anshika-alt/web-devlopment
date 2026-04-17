@@ -410,3 +410,81 @@ body {
   font-size: 12px;
   margin-right: 5px;
 }
+/* ===== Restaurant Details Page ===== */
+
+.restaurant-header {
+  background: #f3ede7;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.restaurant-img {
+  width: 160px;
+  height: 130px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.back-link {
+  text-decoration: none;
+  color: var(--primary-orange);
+  font-weight: 500;
+}
+
+.back-link:hover {
+  color: var(--primary-orange-dark);
+}
+
+.menu-title {
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+.menu-card {
+  background: #f3ede7;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.menu-info h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.menu-info p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0;
+}
+
+.price {
+  color: var(--primary-orange);
+  font-weight: bold;
+}
+
+.btn-add {
+  background: var(--primary-orange);
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.btn-add:hover {
+  background: var(--primary-orange-dark);
+}
