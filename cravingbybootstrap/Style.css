@@ -490,3 +490,10 @@ body {
 .btn-add:hover {
   background: var(--primary-orange-dark);
 }
+.btn{
+  background-color: #bc3e0e;
+}
+.btn:hover
+{
+  color: #be5819;
+}
