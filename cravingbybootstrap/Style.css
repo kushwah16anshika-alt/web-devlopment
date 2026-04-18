@@ -410,15 +410,17 @@ body {
   font-size: 12px;
   margin-right: 5px;
 }
-V /* Restaurant Details Page  */
+ /* Restaurant Details Page  */
 
 .restaurant-header {
-  background: #f3ede7;
+  background: #f6f2ef;
   padding: 20px;
   border-radius: 15px;
   display: flex;
   gap: 20px;
   align-items: center;
+  margin-top: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
 .restaurant-img {
@@ -444,7 +446,7 @@ V /* Restaurant Details Page  */
 }
 
 .menu-card {
-  background: #f3ede7;
+  background: #f6f2ef;
   border-radius: 15px;
   padding: 15px 20px;
   margin-top: 20px;
