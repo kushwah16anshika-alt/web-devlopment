@@ -497,3 +497,139 @@ body {
 {
   color: #be5819;
 }
+/* about ke liye */
+.about-section {
+  height: 80vh;
+  overflow: hidden;
+}
+
+.about-section img {
+  object-fit: cover;
+  z-index: 1;
+}
+
+.about-section .bg-dark {
+  z-index: 2;
+}
+
+.about-section .container {
+  z-index: 3;
+  position: relative;
+}
+
+.about-section h1 {
+  font-size: 3rem;
+}
+
+.about-section p {
+  max-width: 600px;
+}
+
+.logo-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.logo-circle img {
+  width: 70%;
+  height: auto;
+}
+
+.stats1-section {
+  background-color: #545151;
+  padding: 50px 0;
+}
+
+.stats-section h2 {
+  font-size: 36px;
+}
+
+.stats-section p {
+  margin: 0;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    height: 60vh;
+  }
+
+  .about-section h1 {
+    font-size: 28px;
+  }
+
+  .about-section p {
+    font-size: 14px;
+  }
+}
+.story-section {
+  background-color: #fffefd;
+}
+
+.section-tag {
+  color: var(--primary-orange);
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.info-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e3dcd5;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: left;
+  height: 100%;
+}
+
+.info-card .icon {
+  font-size: 24px;
+  color: var(--primary-orange);
+  margin-bottom: 10px;
+}
+
+.info-card h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #575555;
+}
+
+.values-section {
+  background-color: #efe8e2;
+}
+
+.value-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #e3dcd5;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+  height: 100%;
+}
+
+.value-card .icon {
+  font-size: 30px;
+  color: var(--primary-orange);
+  margin-bottom: 15px;
+}
+
+.value-card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  font-size: 14px;
+  color: #575555;
+}
