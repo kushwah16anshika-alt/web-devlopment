@@ -498,6 +498,7 @@ body {
   color: #be5819;
 }
 /* about ke liye */
+
 .about-section {
   height: 80vh;
   overflow: hidden;
@@ -682,4 +683,8 @@ body {
   height: 6px;
   background: white;
   border-radius: 20px;
+}
+.helpcenter
+{
+  text-decoration: rgb(236, 70, 10);
 }
