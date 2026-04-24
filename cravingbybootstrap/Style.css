@@ -684,7 +684,34 @@ body {
   background: white;
   border-radius: 20px;
 }
-.helpcenter
+.heading-orange {
+  color: var(--primary-orange);
+  font-weight: 700;
+  text-align: center;
+}
+.help-card
 {
-  text-decoration: rgb(236, 70, 10);
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  box-shadow:#000;
+  color: rgb(255, 253, 253);
+}
+.form1{
+  background: transparent;
+  margin: top 20px ;
+  text-align: center;
+}
+.faq-title{
+  font-weight: 600;
+  color: white;
+}
+.vr{
+  width: 4px;
+  height: 60px;
+  background-color: var(--primary-orange);
+  margin: 10px auto;
+  border: radius 10px ;
+}
+.text-light{
+  color: #f1f1f1;
 }

@@ -40,18 +40,79 @@
         class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-n1"
         alt="background image"
       />
-      <div class="container">
-        <div class="row justify-content-center align-items-center min-vh-100">
-          <div class="col-12 col-sm-10 col-md-7 col-lg-5 col-xl-4">
-            <div class="card border-0 shadow-lg p-4 rounded-4">
-                <div class="card-body">
-                 
-                 <h1 class=" text-center fw-bold  mb-1">
-                         <i class="bi bi-question-circle-fill"></i> Help Center
-                 </h1>
-                 
+      <div class="container-fluid help-bg">
+        <div
+          class="overlay d-flex justify-content-center align-items-center min-vh-100"
+        >
+          <div class="help-card p-4">
+            <!-- <div class="card help-card border-0 p-4 rounded-4"> -->
+            <!-- <div class="card-body text-center"> -->
+            <h1 class="text-center heading-orange mb-2">
+              <i class="bi bi-question-circle-fill"></i> Help Center
+            </h1>
+            <p class="text-light">
+              Browse FAQs or submit a support ticket below.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6 faq-section">
+                <p class="faq-title mb-3">Frequently Asked Questions</p>
+                <div class="faq-item">
+                  <span>How do I track my order?</span>
+                  <span>+</span>
                 </div>
+                <div class="faq-item">
+                  <span>How do I get a refund?</span>
+                  <span>+</span>
+                </div>
+                <div class="faq-item">
+                  <span>My rider is late. What do I do?</span>
+                  <span>+</span>
+                </div>
+                <div class="faq-item">
+                  <span>How do I update my account info?</span>
+                  <span>+</span>
+                </div>
+                <!-- bicch wali line -->
+                <div class="col-md-1 d-flex justify-content-center">
+                  <div class="divider"></div>
+                </div>
+                <div class="col-md-5">
+                  <h6 class="text-light mb-3">SUBMIT A SUPPORT TICKET</h6>
+                </div>
+                <form>
+                  <input
+                    type="text"
+                    class="form control custom-input"
+                    placeholder="Enter your full name"
+                  />
+                  <input
+                    type="email"
+                    class="form control custom-input"
+                    placeholder="Enter your email"
+                  />
+                  <select class="form-control custom-input">
+                    <option>select issue type</option>
+                  </select>
+                  <input
+                    type="text"
+                    class="form control custom-input"
+                    placeholder="e.g. ORD-00123"
+                  />
+                  <textarea
+                    class="form-control custom-input"
+                    rows="4"
+                    placeholder="please describe the problem in detail..."
+                  ></textarea>
+                  <button class="btn submit-btn w-100 mt-3">
+                    submit ticket
+                  </button>
+                </form>
+              </div>
             </div>
+
+            <!-- </div>
+            </div> -->
           </div>
         </div>
       </div>
