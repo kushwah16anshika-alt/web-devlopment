@@ -715,3 +715,71 @@ body {
 .text-light{
   color: #f1f1f1;
 }
+.help-card {
+ background: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  width: 90%;
+  max-width: 1100px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.faq-title {
+  color: #ddd;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.faq-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 15px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  margin-bottom: 12px;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.faq-item:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.divider {
+  width: 1px;
+  height: 100%;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.custom-input {
+  background: #dcdcdc;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.submit-btn {
+  background-color: #d8430c;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #be3a09;
+}
+.help-card {
+  height: 100%;
+}
+
+.row {
+  min-height: 400px; /* ya auto bhi use kar sakte ho */
+}
+
+.divider {
+  width: 1px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
