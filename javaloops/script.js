@@ -17,6 +17,6 @@ let j=1;
 while(j<=10)
 {
     var c=2;
-    console.log(c*i);
+    console.log(c*j);
     j++;
 }
