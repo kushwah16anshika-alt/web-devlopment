@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    background-color: white;
+}
+
+#result1 {
+    margin-top: 10px;
+    color: blue;
+    display: none;
+}
+
+#result2 {
+    margin-top: 10px;
+    color: blue;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+#result3 {
+    margin-top: 10px;
+    color: rgb(42, 58, 202);
+    box-shadow: 3px 3px 8px gray;
+    padding: 10px;
+}
+.button
+{
+    background-color: blue;
+
+}
