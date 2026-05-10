@@ -1,0 +1,35 @@
+ body {
+        background-color: rgb(20, 20, 78);
+      }
+
+      .bill-box {
+        width: 100%;
+        max-width: 400px;
+        min-height: 550px;
+      }
+
+      .billheader {
+        width: 100%;
+        max-width: 400px;
+        background-color: rgb(255, 129, 40);
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .form-control:focus {
+        box-shadow: none;
+      }
+
+      .slab-box {
+        background-color: rgb(240, 240, 240);
+      }
+
+      @media screen and (max-width: 576px) {
+        .bill-box {
+          width: 90%;
+        }
+
+        .billheader {
+          width: 90%;
+        }
+      }

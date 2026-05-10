@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Travel Bill Calculator</title>
+  </head>
+
+  <body>
+
+    <div
+      class="travel-header text-light text-center mx-auto mt-5 p-3 rounded-top-4"
+    >
+      Travel Bill Calculator
+    </div>
+
+    <div
+      class="travel-box bg-white mx-auto rounded-bottom-4 shadow p-4"
+    >
+
+      <label class="fw-bold mb-3 fs-5">
+        Kilometers Covered
+      </label>
+
+      <div class="input-group mb-2">
+
+        <input
+          type="number"
+          step="0.1"
+          id="km"
+          placeholder="Enter travelled kilometers"
+          class="form-control"
+        />
+
+        <span class="input-group-text bg-white border-0">
+          <i class="bi bi-car-front-fill"></i>
+        </span>
+
+      </div>
+
+      <div
+        id="error"
+        class="text-danger fw-semibold mb-3"
+      ></div>
+
+      <div class="card breakdown-box border-0 p-3 mb-4">
+
+        <h5 class="fw-bold text-center mb-3">
+          Fare Slabs
+        </h5>
+
+        <p>
+          First 10 km :
+          <span class="fw-bold">
+            Rs. 11 / km
+          </span>
+        </p>
+
+        <p>
+          Next 40 km :
+          <span class="fw-bold">
+            Rs. 10 / km
+          </span>
+        </p>
+
+        <p>
+          Above 50 km :
+          <span class="fw-bold">
+            Rs. 8 / km
+          </span>
+        </p>
+
+      </div>
+
+      <div class="text-center">
+
+        <button
+          class="btn btn-custom px-4 py-2"
+          id="calculateBtn"
+        >
+          Calculate Bill
+        </button>
+
+      </div>
+
+      <div
+        id="resultCard"
+        class="result-box rounded-4 mt-4 p-4 d-none"
+      >
+
+        <h3 class="fw-bold text-center mb-4">
+          Total Bill :
+          <span id="totalBill"></span>
+        </h3>
+
+        <div
+          id="breakdown"
+          class="fw-semibold"
+        ></div>
+
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

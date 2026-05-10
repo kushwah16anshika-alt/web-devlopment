@@ -1,0 +1,16 @@
+body{
+    background-image: url(CalculatorBGImage.png);
+}
+.upper-box
+{
+background-color: rgb(181, 246, 206);
+}
+.lower-box
+{
+background-color: rgb(255, 222, 244);
+}
+.cmbbtn{
+    
+    border-radius: 50%;
+    
+}
