@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(20, 20, 78);
+}
+.tip-box {
+  height: 500px;
+}
+.tipheader {
+  width: 100%;
+  max-width: 350px;
+  background-color: rgb(255, 129, 40);
+  @media screen and (max-width: 350px){
+
+    .tipheader{
+        width: 90%;
+    }
+}
+}
