@@ -1,16 +1,44 @@
 body{
     background-image: url(CalculatorBGImage.png);
 }
+.calculator{
+    width: 320px;
+    background-color: #f9fafb;
+}
 .upper-box
 {
+height: 100px;
 background-color: rgb(181, 246, 206);
 }
 .lower-box
 {
 background-color: rgb(255, 222, 244);
 }
-.cmbbtn{
-    
-    border-radius: 50%;
-    
+.num {
+  outline: none;
+  box-shadow: none;
+  font-weight: bold;
+}
+
+.cmbbtn {
+  width: 55px;
+  height: 55px;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.cmbbtn:hover {
+  transform:scale3d(1.05);
+}
+
+.operator-btn {
+  background-color: #ffc107;
+}
+
+.equal-btn {
+  width: 125px;
+  height: 55px;
+  border-radius: 40px;
+  background-color: #198754;
+  font-size: 22px;
 }
