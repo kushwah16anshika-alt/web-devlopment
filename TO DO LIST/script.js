@@ -11,7 +11,7 @@ function addTask() {
   listItem.className =
     "list-group-item d-flex justify-content-between align-items-center task-item";
 
-  let taskText = document.createElement("span");
+  let taskText = document.createElement("div");
 
   taskText.innerText = taskValue;
   let deleteBtn = document.createElement("button");
