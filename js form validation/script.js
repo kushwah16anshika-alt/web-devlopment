@@ -5,7 +5,7 @@ function sumit() {
   const password = document.getElementById("password").value;
 
 
-if()
+
   console.log(fullname);
   console.log(number);
   console.log(email);

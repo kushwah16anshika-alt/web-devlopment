@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      class="bg-primary text-light p-4 justify-content-center align-items-center text-center m-3"
+    >
+      REGISTRATION FORM
+    </header>
+    <main>
+      <div
+        class="container bg-light rounded border shadow mt-4 m-3 p-5  justify-content-center align-items-center"
+      >
+        <form>
+          <section class="bg-white p-3 rounded border shadow">
+            <div class="PersonalInformation">
+              <div class="bg-primary rounded border p-2 text-light">
+                PersonalInformation
+              </div>
+              <div>
+                <label for="fullname">FULLNAME:</label>
+                <input
+                  type="text"
+                  name="fullname"
+                  id="fullname"
+                  class="form-control"
+                  placeholder="enter your full name"
+                />
+                <span id="nameeerror" class="error"> </span>
+              </div>
+              <div>
+                <label for="email">EMAIL:</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="enter your email"
+                />
+                <span id="emailerror" class="error"> </span>
+              </div>
+              <div>
+                <label for="number">PHONE NUMBER:</label>
+                <input
+                  type="number"
+                  id="Number"
+                  class="form-control"
+                  placeholder="enter your Number"
+                />
+                <span id="phoneerror" class="error"> </span>
+              </div>
+              <div>
+                <label for="dateofbirth">DATE OF BIRTH:</label>
+                <input
+                  type="text"
+                  id="dateofbirth"
+                  class="form-control"
+                  placeholder="enter your date of birth"
+                />
+                <span id="ageerror" class="error"> </span>
+              </div>
+            </div>
+          </section>
+
+          <section class="bg-white p-3 rounded border shadow">
+            <div class="AcademicDetails">
+              <div class="bg-primary rounded border p-2 text-light">
+                Academic Details:
+              </div>
+              <div>
+                <label for=" LastCompletedQualification">
+                  Last Completed Qualification:
+                </label>
+                <select class="form-control">
+                  <option>10th</option>
+                  <option>12th</option>
+                  <option>Graduate</option>
+                  <option>Postgraduate</option>
+                </select>
+                <span id="nameeerror" class="error"> </span>
+              </div>
+              <div>
+                <label for="text">
+                  Percentage/Grade in Last Qualification:</label
+                >
+                <input
+                  type="text"
+                  id="grade"
+                  class="form-control"
+                  placeholder=" enter your Percentage/Grade in Last Qualification"
+                />
+                <span id="gradeerror" class="error"> </span>
+              </div>
+            </div>
+          </section>
+          <section class="bg-white p-3 rounded border shadow">
+            <div class=" CourseInformation">
+              <div class="bg-primary rounded border p-2 text-light">
+                 Course Information:
+              </div>
+              <div>
+                <label for="PreferredCourse">
+                  Preferred Course:
+                </label>
+                <select class="form-control">
+                  <option> IIT-JEE</option>
+                  <option>NEET</option>
+                  <option>Banking Exams</option>
+                  <option> UPSC</option>
+                </select>
+                <span id="nameeerror" class="error"> </span>
+              </div>
+              <div>
+                <label for="text">
+                  Percentage/Grade in Last Qualification:</label
+                >
+                <input
+                  type="text"
+                  id="grade"
+                  class="form-control"
+                  placeholder=" enter your Percentage/Grade in Last Qualification"
+                />
+                <span id="gradeerror" class="error"> </span>
+              </div>
+            </div>
+          </section>
+        </form>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
