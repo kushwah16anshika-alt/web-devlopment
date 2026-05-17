@@ -101,12 +101,4 @@ function validateData(data) {
     document.getElementById("genderError").innerText = "Please select gender";
     isValid = false;
   }
-
-  if (!/^\d{6}$/.test(data["Pincode"])) {
-    document.getElementById("pincodeError").innerText =
-      "Enter valid 6 digit pincode";
-    isValid = false;
-  }
-
-  return isValid;
 }
