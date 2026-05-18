@@ -101,4 +101,8 @@ function validateData(data) {
     document.getElementById("genderError").innerText = "Please select gender";
     isValid = false;
   }
+ 
+  return isValid;
+}
+
 }
