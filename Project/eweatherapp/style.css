@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url("ChatGPT\ Image\ May\ 25\,\ 2026\,\ 07_11_54\ PM.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+.weather-card {
+  /* background-color: white; */
+  background: rgba(255, 255, 255, 0.08);
+  width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card h1 {
+  margin-bottom: 20px;
+  color: #558ad8;
+}
+
+.weather-icon {
+  font-size: 70px;
+  color: orange;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.search-box input {
+  border-radius: 10px;
+}
+
+.btn-custom {
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.city {
+  font-size: 24px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.temp {
+  font-size: 45px;
+  font-weight: bold;
+  color: #575656;
+}
+
+.details p {
+  font-size: 18px;
+  margin: 10px 0;
+}
