@@ -20,5 +20,5 @@ fetch("https://restcountries.com/v3.1/all")
 countryselect.addEventListener("change", function () {
   const code = countryselect.value;
 
-  flag.src = "https://flagsapi.com/${code}/flat/64.png";
+    flag.src = `https://flagsapi.com/${code}/flat/64.png`;
 });
