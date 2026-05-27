@@ -1,0 +1,32 @@
+[
+  {
+    "name": "India",
+    "code": "INR",
+    "flag": "https://flagcdn.com/w320/in.png"
+  },
+  {
+    "name": "United States",
+    "code": "USD",
+    "flag": "https://flagcdn.com/w320/us.png"
+  },
+  {
+    "name": "United Kingdom",
+    "code": "GBP",
+    "flag": "https://flagcdn.com/w320/gb.png"
+  },
+  {
+    "name": "Japan",
+    "code": "JPY",
+    "flag": "https://flagcdn.com/w320/jp.png"
+  },
+  {
+    "name": "Canada",
+    "code": "CAD",
+    "flag": "https://flagcdn.com/w320/ca.png"
+  },
+  {
+    "name": "Australia",
+    "code": "AUD",
+    "flag": "https://flagcdn.com/w320/au.png"
+  }
+]

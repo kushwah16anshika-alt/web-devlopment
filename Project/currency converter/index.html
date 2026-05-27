@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,26 +15,58 @@
     />
     <title>Document</title>
   </head>
-  <body>
-    <header class=" bg-primary p-3 text-light text-center fw-semibold fixed-top">CURRENCY CONVERTER</header>
-    <div class="d-flex justify-content-center align-items-center vh-100">
-     <div class="  m-5 mt-5">
-        <!-- flag -->
-        <img id="flag" src="" alt="flag"/>
-        <br/>
-        <!-- country -->
-         <select id="country"></select>
-     </div>
-    </div>
-    <div class="d-flex justify-content-center align-items-center vh-100">
-     <div class="  m-5 mt-5">
-        <!-- flag -->
-        <img id="flag" src="" alt="flag"/>
-        <br/>
-        <!-- country -->
-         <select id="country"></select>
-     </div>
-    </div>
+  <body class="bg-primary">
+    <header>
+      <div class="bg-warning text-center">
+        <h2>CURRENCY CONVERTER</h2>
+      </div>
+    </header>
+    <main>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-4 text-center">
+            <img
+              id="fromflag"
+              src="https://flagcdn.com/w320/in.png"
+              width="120"
+            />
+
+            <select id="fromcountry" class="form-select mt-3"></select>
+          </div>
+          <div class="col-md-4 text-center">
+            <img
+              id="toflag"
+              src="https://flagcdn.com/w320/us.png"
+              width="120"
+            />
+
+            <select id="tocountry" class="form-select mt-3"></select>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-3">
+            <input
+              type="number"
+              id="amount"
+              class="form-control"
+              placeholder="Enter Amount"
+            />
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-2 d-grid">
+            <button class="btn btn-primary" id="converterbtn">convert</button>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-3 text-center">
+            <h2 id="result">Converted Amount :</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="codes.json"></script>
     <script src="script.js"></script>
   </body>
 </html>
