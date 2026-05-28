@@ -23,79 +23,79 @@
 //     flag.src = `https://flagsapi.com/${code}/flat/64.png`;
 // });
 
-const  fromcountry=document.getElementById("fromcountry");
-const toCountry = document.getElementById("tocountry");
+// const  fromcountry=document.getElementById("fromcountry");
+// const toCountry = document.getElementById("tocountry");
 
-const fromFlag = document.getElementById("fromflag");
-const toFlag = document.getElementById("toflag");
+// const fromFlag = document.getElementById("fromflag");
+// const toFlag = document.getElementById("toflag");
 
-const amount = document.getElementById("amount");
+// const amount = document.getElementById("amount");
 
-const convertBtn = document.getElementById("converterbtn");
+// const convertBtn = document.getElementById("converterbtn");
 
-const result = document.getElementById("result");
+// const result = document.getElementById("result");
 
-let countries = [];
+// let countries = [];
 
-fetch("codes.json").then((res)=>res.json()).then((data)=>{
-  countries=data;
-  data.forEach((country)=>{
-     const option1 = document.createElement("option");
-      option1.value = country.code;
-      option1.textContent = country.name;
+// fetch("codes.json").then((res)=>res.json()).then((data)=>{
+//   countries=data;
+//   data.forEach((country)=>{
+//      const option1 = document.createElement("option");
+//       option1.value = country.code;
+//       option1.textContent = country.name;
 
-      const option2 = document.createElement("option");
-      option2.value = country.code;
-      option2.textContent = country.name;
+//       const option2 = document.createElement("option");
+//       option2.value = country.code;
+//       option2.textContent = country.name;
 
-      fromCountry.appendChild(option1);
-      toCountry.appendChild(option2);
-  });
-  country.value="INR";
-  country.value="USD";
-});
-
-
-fromCountry.addEventListener("change", () => {
-
-  const selectedCountry = countries.find(
-    (country) => country.code === fromCountry.value
-  );
-
-  fromFlag.src = selectedCountry.flag;
-});
+//       fromCountry.appendChild(option1);
+//       toCountry.appendChild(option2);
+//   });
+//   country.value="INR";
+//   country.value="USD";
+// });
 
 
-toCountry.addEventListener("change", () => {
+// fromCountry.addEventListener("change", () => {
 
-  const selectedCountry = countries.find(
-    (country) => country.code === toCountry.value
-  );
+//   const selectedCountry = countries.find(
+//     (country) => country.code === fromCountry.value
+//   );
 
-  toFlag.src = selectedCountry.flag;
-});
+//   fromFlag.src = selectedCountry.flag;
+// });
 
-convertBtn.addEventListener("click", () => {
 
-  const from = fromCountry.value;
+// toCountry.addEventListener("change", () => {
 
-  const to = toCountry.value;
+//   const selectedCountry = countries.find(
+//     (country) => country.code === toCountry.value
+//   );
 
-  const inputAmount = amount.value;
+//   toFlag.src = selectedCountry.flag;
+// });
 
-  fetch(`https://open.er-api.com/v6/latest/${from}`)
-    .then((res) => res.json())
-    .then((data) => {
+// convertBtn.addEventListener("click", () => {
 
-      const rate = data.rates[to];
+//   const from = fromCountry.value;
 
-      const convertedAmount = inputAmount * rate;
+//   const to = toCountry.value;
 
-      result.innerText =
-        "Converted Amount : " +
-        convertedAmount.toFixed(2) +
-        " " +
-        to;
-    });
+//   const inputAmount = amount.value;
 
-});
+//   fetch(`https://open.er-api.com/v6/latest/${from}`)
+//     .then((res) => res.json())
+//     .then((data) => {
+
+//       const rate = data.rates[to];
+
+//       const convertedAmount = inputAmount * rate;
+
+//       result.innerText =
+//         "Converted Amount : " +
+//         convertedAmount.toFixed(2) +
+//         " " +
+//         to;
+//     });
+
+// });
