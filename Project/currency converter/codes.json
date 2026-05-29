@@ -28,5 +28,80 @@
     "name": "Australia",
     "code": "AUD",
     "flag": "https://flagcdn.com/w320/au.png"
+  },
+  {
+    "name": "Germany",
+    "code": "EUR",
+    "flag": "https://flagcdn.com/w320/de.png"
+  },
+  {
+    "name": "France",
+    "code": "EUR",
+    "flag": "https://flagcdn.com/w320/fr.png"
+  },
+  {
+    "name": "China",
+    "code": "CNY",
+    "flag": "https://flagcdn.com/w320/cn.png"
+  },
+  {
+    "name": "Russia",
+    "code": "RUB",
+    "flag": "https://flagcdn.com/w320/ru.png"
+  },
+  {
+    "name": "Brazil",
+    "code": "BRL",
+    "flag": "https://flagcdn.com/w320/br.png"
+  },
+  {
+    "name": "South Korea",
+    "code": "KRW",
+    "flag": "https://flagcdn.com/w320/kr.png"
+  },
+  {
+    "name": "Singapore",
+    "code": "SGD",
+    "flag": "https://flagcdn.com/w320/sg.png"
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "AED",
+    "flag": "https://flagcdn.com/w320/ae.png"
+  },
+  {
+    "name": "Saudi Arabia",
+    "code": "SAR",
+    "flag": "https://flagcdn.com/w320/sa.png"
+  },
+  {
+    "name": "South Africa",
+    "code": "ZAR",
+    "flag": "https://flagcdn.com/w320/za.png"
+  },
+  {
+    "name": "New Zealand",
+    "code": "NZD",
+    "flag": "https://flagcdn.com/w320/nz.png"
+  },
+  {
+    "name": "Pakistan",
+    "code": "PKR",
+    "flag": "https://flagcdn.com/w320/pk.png"
+  },
+  {
+    "name": "Bangladesh",
+    "code": "BDT",
+    "flag": "https://flagcdn.com/w320/bd.png"
+  },
+  {
+    "name": "Nepal",
+    "code": "NPR",
+    "flag": "https://flagcdn.com/w320/np.png"
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LKR",
+    "flag": "https://flagcdn.com/w320/lk.png"
   }
 ]
