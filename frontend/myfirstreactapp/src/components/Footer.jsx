@@ -1,8 +1,8 @@
-function footer() {
+function Footer() {
   return (
     <>
-      <div id="footer">this id my footer</div>
+      
     </>
   );
 }
-export default footer;
+export default Footer;
