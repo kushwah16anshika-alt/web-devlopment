@@ -23,7 +23,7 @@ function App() {
       <Router>
         <Route path="/" element={<Home/>}/>
         <Route path="/Aboutus" element={<Aboutus/>}/>
-        <Route path="/cp" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/" element={<Home/>}/>
       </Router>
       </BrowserRouter>
