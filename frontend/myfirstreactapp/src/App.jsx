@@ -20,12 +20,15 @@ function App() {
       <Footer /> */}
       <BrowserRouter>
       <Header/>
-      <Router>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/Aboutus" element={<Aboutus/>}/>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/" element={<Home/>}/>
-      </Router>
+     <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutus" element={<Aboutus />} />
+          <Route path="/contactus" element={<Contactus />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+
       </BrowserRouter>
     </>
   );
