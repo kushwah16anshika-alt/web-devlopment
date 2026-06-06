@@ -35,10 +35,10 @@ function Header() {
       </div>
 
       <div className="d-flex gap-4">
-        <Link to="/">Home</Link>
-        <Link to="/about">About Us</Link>
-        <Link to="/products">Products</Link>
-        <Link to="/contact-us">Contact Us</Link>
+        <Link to="/" className="text-decoration-none">Home</Link>
+        <Link to="/about" className="text-decoration-none">About Us</Link>
+        <Link to="/products" className="text-decoration-none">Products</Link>
+        <Link to="/contact-us" className="text-decoration-none">Contact Us</Link>
       </div>
 
       <div className="d-flex gap-3">
