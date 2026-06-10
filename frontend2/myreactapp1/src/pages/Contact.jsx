@@ -2,11 +2,11 @@ function Contact() {
   return (
     <div className="signup-hero d-flex align-items-center min-vh-100 position-relative">
 
-      <img
-        src="/images/contactPage.jpg"
+      {/* <img
+        src="/fresh "
         className="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-n1"
         alt="bg"
-      />
+      /> */}
 
       <div className="container">
         <div className="col-md-6">
